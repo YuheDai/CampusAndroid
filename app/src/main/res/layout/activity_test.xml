@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title"
+            android:text="这是一个文本框"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/content"
+            android:text="这也是一个文本框"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <Button
+            android:id="@+id/button1"
+            android:text="很好"
+            android:layout_marginStart="40dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="80dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="非常好"
+            android:layout_weight="1"
+            android:layout_marginEnd="40dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
